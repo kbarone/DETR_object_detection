@@ -1,6 +1,6 @@
 # Object Detection with DETR 
 
-I chose to implement an end-to-end objection detection model using Facebook’s Detection Transformer (DETR) model. The dataset I used was the binary classification Global Wheat Detection dataset that was recommended in the assignment writeup.
+This is an end-to-end objection detection model using Facebook’s Detection Transformer (DETR) model. The dataset I used was the binary classification Global Wheat Detection dataset.
 
 First, we needed to create new dataloaders for the wheat dataset. I read in the train.csv document and broke out the bounding box column into four separate columns. 
 
